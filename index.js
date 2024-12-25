@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 80001
 //common middle ware
 app.use(
   cors({
-      origin:front-end-mongo.vercel.app,
-      credentials:true
+    origin:'https://front-end-mongo.vercel.app/',
+    credentials:true
   })
 )
 app.use(express.json({limit:"16kb"}))
