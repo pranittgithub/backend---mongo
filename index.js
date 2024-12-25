@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 80001
 //common middle ware
 app.use(
   cors({
-    origin:'https://front-end-mongo.vercel.app/',
+    origin:'https://front-end-mongo.vercel.app',
     credentials:true
   })
 )
